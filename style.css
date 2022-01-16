@@ -24,3 +24,16 @@ main > section img {
     margin: 15px 0;
     width: 300px;
 }
+
+main > section button {
+    background-color: #06f7f7;
+    border-radius: 5%;
+    color: #fffefe;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.6px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 9px 23px;
+}
