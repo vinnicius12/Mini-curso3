@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>conheca  Rick and Morty</title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
 
     </hed>
     <body>
@@ -15,13 +15,13 @@
             <section id="detalhes-container"> 
                 <img alt="Imagem mostra o rosto do personagem  Rick and Morty, olhos bem abertos, sorriso fechado. " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO4_lEhyl4exOzPQjXDK1gRFVi5DUqOeg7ag&usqp=CAU">
                 <ul>
-                    <li id="nome">Nome: </li>
-                    <li id="especie">Especie: </li>
-                    <li id="status">Está Vivo? </li>
+                    <li>Nome: <p id="nome"></p></li>
+                    <li>Especie: <p id="especie"></p></li>
+                    <li>Está vivo? <p id="status"></p></li>
 
                 
                 </ul>
-                <button>Conheça um personagem Rick and Morty </button>
+                <button id="botao">Conheça um personagem Rick and Morty </button>
 
             </section>
         </main>
